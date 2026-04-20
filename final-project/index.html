@@ -1,154 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Meta Setup -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Title -->
     <title>Three Star Media | Home</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
 
-    <header>
-        <img src="images/logo.png" alt="Three Star Media Logo">
+    <!-- HEADER -->
+    <header class="header">
+        <img src="images/logo.png" alt="Logo" class="logo">
+
         <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="#about">About Us</a></li>
+            <ul class="nav-list">
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
                 <li><a href="#services">Services</a></li>
-                <li><a href="#team">Our Team</a></li>
+                <li><a href="#team">Team</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
-        <form>
-            <input type="search" placeholder="Search...">
-            <button type="submit">Search</button>
+
+        <form class="search">
+            <input type="search" placeholder="Search">
+            <button>Search</button>
         </form>
     </header>
 
-    <main>
+    <main class="container">
+
+        <!-- HERO -->
         <section class="hero">
             <h1>Welcome to Three Star Media</h1>
-            <p>We are a creative agency focused on delivering high-quality digital and print solutions that help your business grow.</p>
-            <h2>Connect with us <span>&#9654;</span></h2>
+            <p>We create modern digital solutions.</p>
+            <a href="#" class="btn">Connect ▶</a>
         </section>
 
-        <section id="about">
-            <img src="images/about-us.jpg" alt="Creative office space">
-            <article>
+        <!-- ABOUT -->
+        <section id="about" class="about">
+            <img src="images/about-us.jpg" alt="">
+            <div>
                 <h2>About Us</h2>
-                <p>Three Star Media specializes in digital transformation and branding. We help companies modernize their presence through innovative web and video solutions.</p>
-                <p>Our team is dedicated to providing professional service that exceeds expectations, ensuring every project reflects our commitment to excellence.</p>
-            </article>
+                <p>We help businesses grow with creative design.</p>
+            </div>
         </section>
 
+        <!-- SERVICES -->
         <section id="services">
             <h2>Our Services</h2>
-            
-            <article>
-                <img src="images/digital.jpg" alt="Digital Transformation">
-                <h3>Digital Transformation</h3>
-                <p>Modernize your business workflows with our comprehensive digital transition plans designed for the future.</p>
-                <a href="#">Digital Plans <span>&#9654;</span></a>
-            </article>
 
-            <article>
-                <img src="images/marketing.jpg" alt="Marketing">
-                <h3>Marketing</h3>
-                <p>Reach your target audience effectively through data-driven marketing strategies and creative campaign management.</p>
-                <a href="#">Marketing Plans <span>&#9654;</span></a>
-            </article>
-
-            <article>
-                <img src="images/video.jpg" alt="Video Production">
-                <h3>Video Production</h3>
-                <p>Professional high-definition video content tailored for social media, broadcast, and corporate presentations.</p>
-                <a href="#">Video Plans <span>&#9654;</span></a>
-            </article>
-
-            <article>
-                <img src="images/web.jpg" alt="Web Development">
-                <h3>Web Development</h3>
-                <p>Custom, responsive websites built with the latest technologies to ensure your brand stands out online.</p>
-                <a href="#">Web Plans <span>&#9654;</span></a>
-            </article>
-
-            <article>
-                <img src="images/print.jpg" alt="Print">
-                <h3>Print</h3>
-                <p>Quality print solutions from business cards to large-scale banners, ensuring your physical branding is sharp.</p>
-                <a href="#">Print Plans <span>&#9654;</span></a>
-            </article>
+            <div class="services-grid">
+                <article class="card"><img src="images/digital.jpg"><h3>Digital</h3></article>
+                <article class="card"><img src="images/marketing.jpg"><h3>Marketing</h3></article>
+                <article class="card"><img src="images/video.jpg"><h3>Video</h3></article>
+                <article class="card"><img src="images/web.jpg"><h3>Web</h3></article>
+                <article class="card"><img src="images/print.jpg"><h3>Print</h3></article>
+            </div>
         </section>
 
-        <section class="vision">
-            <h2>Our Vision</h2>
-            <p>Our vision is to become the leading provider of creative media services in the region, known for our integrity and innovation.</p>
-            <a href="#">Learn More <span>&#9654;</span></a>
-        </section>
-
+        <!-- TEAM -->
         <section id="team">
             <h2>Our Team</h2>
-            <article>
-                <img src="images/john.jpg" alt="John Doe">
-                <h3>John Doe</h3>
-                <p><strong>CEO and Co-owner</strong></p>
-                <p>John has over 15 years of experience in the media industry and leads the creative direction of the firm.</p>
-            </article>
 
-            <article>
-                <img src="images/bob.jpg" alt="Bob Rite">
-                <h3>Bob Rite</h3>
-                <p><strong>CFO and Co-owner</strong></p>
-                <p>Bob manages the financial operations and strategic planning.</p>
-            </article>
+            <div class="team-flex">
+                <article><img src="images/john.jpg"><h3>John</h3></article>
+                <article><img src="images/bob.jpg"><h3>Bob</h3></article>
+            </div>
         </section>
 
+        <!-- CONTACT -->
         <section id="contact">
-            <h2>Contact Us</h2>
-            
-            <form action="#">
-                <label for="full-name">Full Name</label>
-                <input type="text" id="full-name" name="full-name" required>
+            <h2>Contact</h2>
 
-                <label for="email">Email</label>
-                <input type="email" id="email" name="email" required>
-
-                <label for="message">Message</label>
-                <textarea id="message" name="message" required></textarea>
-
-                <button type="submit">Send Message</button>
+            <form class="contact-form">
+                <input type="text" placeholder="Name">
+                <input type="email" placeholder="Email">
+                <textarea placeholder="Message"></textarea>
+                <button>Send</button>
             </form>
 
-            <div class="location">
-                <h3>Location</h3>
-                <img src="images/desktop-mockup.png" alt="Map of our location">
-            </div>
-
-            <div class="hours">
-                <h3>Hours of operation</h3>
-                <table border="1">
-                    <thead>
-                        <tr>
-                            <th>Days</th>
-                            <th>Hours</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>Monday - Friday</td>
-                            <td>9 AM - 6 PM</td>
-                        </tr>
-                        <tr>
-                            <td>Saturday - Sunday</td>
-                            <td>Closed</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
+            <table>
+                <thead>
+                    <tr><th>Days</th><th>Hours</th></tr>
+                </thead>
+                <tbody>
+                    <tr><td>Mon-Fri</td><td>9-6</td></tr>
+                </tbody>
+            </table>
         </section>
+
     </main>
 
     <footer>
-        <p>&copy; Copyright 2026 Akalvir Singh - Three Star Media</p>
+        <p>© 2026 Three Star Media</p>
     </footer>
 
 </body>
