@@ -1,84 +1,125 @@
-/* RESET */
+/* ========================= */
+/* CSS RESET */
+/* ========================= */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* ========================= */
 /* BODY */
+/* ========================= */
 body {
     font-family: 'Open Sans', sans-serif;
     color: #222;
 }
 
-/* IMAGES FIX */
+/* ========================= */
+/* IMAGES */
+/* ========================= */
 img {
     width: 100%;
     display: block;
 }
 
+/* ========================= */
 /* CONTAINER */
+/* ========================= */
 .container {
     max-width: 1200px;
-    width: 100%;
     margin: auto;
     padding: 1rem;
 }
 
+/* ========================= */
 /* HEADER (FLEXBOX) */
+/* ========================= */
 .header {
+    background: #222;
+    padding: 1rem;
     display: flex;
     flex-direction: column;
     gap: 1rem;
-    background: #222;
-    color: white;
-    padding: 1rem;
 }
 
+.logo {
+    width: 120px;
+}
+
+/* NAV */
 .nav-list {
     list-style: none;
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
 }
 
-/* HERO */
-.hero {
-    background: #c78c06;
-    color: white;
-    padding: 2rem;
+.nav-list a {
+    display: block;
     text-align: center;
+    padding: 1rem;
+    color: #c78c06;
+    text-decoration: none;
 }
 
+/* SEARCH */
+.search {
+    display: flex;
+}
+
+.search input {
+    flex: 1;
+}
+
+/* ========================= */
+/* HERO */
+/* ========================= */
+.hero {
+    background: url("../images/main-banner.jpg") center/cover no-repeat;
+    color: white;
+    padding: 3rem 1rem;
+}
+
+/* BUTTON */
 .btn {
     display: inline-block;
-    background: #ffe6ac;
+    background: #c78c06;
+    color: black;
     padding: 0.5rem 1rem;
     margin-top: 1rem;
 }
 
+/* ========================= */
 /* ABOUT */
+/* ========================= */
 .about {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
+    background: #ffe6ac;
+    padding: 1rem;
 }
 
+/* ========================= */
 /* GRID (REQUIRED) */
+/* ========================= */
 .services-grid {
     display: grid;
     grid-template-columns: 1fr;
     gap: 1rem;
 }
 
+.card {
+    background: #ffe6ac;
+}
+
+/* ========================= */
 /* FLEXBOX (REQUIRED) */
+/* ========================= */
 .team-flex {
     display: flex;
     flex-direction: column;
     gap: 1rem;
 }
 
+/* ========================= */
 /* TABLE */
+/* ========================= */
 table {
     width: 100%;
     border-collapse: collapse;
@@ -89,16 +130,29 @@ th, td {
     padding: 0.5rem;
 }
 
-/* MEDIA QUERY */
+/* ========================= */
+/* FOOTER */
+/* ========================= */
+.footer {
+    background: #222;
+    color: #c78c06;
+    text-align: center;
+    padding: 1rem;
+}
+
+/* ========================= */
+/* MEDIA QUERY (REQUIRED) */
+/* ========================= */
 @media (min-width: 760px) {
 
     .nav-list {
-        flex-direction: row;
-        justify-content: space-between;
+        display: flex;
+        justify-content: space-around;
     }
 
     .about {
-        flex-direction: row;
+        display: flex;
+        gap: 1rem;
     }
 
     .services-grid {
