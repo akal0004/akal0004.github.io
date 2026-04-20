@@ -1,143 +1,164 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
-    <!-- Meta -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Three Star Media</title>
-
-    <!-- Google Font -->
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
-
-    <!-- CSS -->
+    <title>Three Star Media - Final Project</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
-
 </head>
-
 <body>
 
-<!-- HEADER -->
-<header class="header">
-    <img src="images/logo.png" alt="Logo" class="logo">
+    <header class="header">
+        <div class="container header-flex">
+            <div class="logo"><img src="images/logo.png" alt="Logo"></div>
+            <nav class="nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#team">Team</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="search">
+                <input type="text" placeholder="Search...">
+                <button>🔍</button>
+            </div>
+        </div>
+    </header>
 
-    <nav>
-        <ul class="nav-list">
-            <li><a href="#">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#team">Team</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h1>Welcome to Three Star Media</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Reprehenderit nisi cumque numquam dolorem illum.</p>
+                <a href="#contact" class="btn btn-gold">Connect with us ▶</a>
+            </div>
+        </section>
 
-    <!-- Search -->
-    <form class="search">
-        <input type="search" placeholder="Search">
-        <button>🔍</button>
-    </form>
-</header>
+        <section id="about" class="about-peach">
+            <div class="container flex-row">
+                <img src="images/about-us.jpg" alt="About" class="side-img">
+                <div class="text-box">
+                    <h2>About Us</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Libero unde repellendus exercitationem asperiores ducimus placeat.</p>
+                </div>
+            </div>
+        </section>
 
-<main class="container">
+        <section id="services" class="services-section">
+            <div class="container">
+                <h2>Our Services</h2>
+                <div class="services-grid">
+                    <div class="card">
+                        <img src="images/digital.jpg" alt="Digital">
+                        <div class="card-info">
+                            <h3>Digital Transformation</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <a href="#" class="btn btn-dark">Digital Plans ▶</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="images/marketing.jpg" alt="Marketing">
+                        <div class="card-info">
+                            <h3>Marketing</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <a href="#" class="btn btn-dark">Marketing Plans ▶</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="images/video.jpg" alt="Video">
+                        <div class="card-info">
+                            <h3>Video Production</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <a href="#" class="btn btn-dark">Video Plans ▶</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="images/web.jpg" alt="Web">
+                        <div class="card-info">
+                            <h3>Web Development</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <a href="#" class="btn btn-dark">Web Plans ▶</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="images/print.jpg" alt="Print">
+                        <div class="card-info">
+                            <h3>Print</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <a href="#" class="btn btn-dark">Print Plans ▶</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-<!-- HERO -->
-<section class="hero">
-    <h1>Welcome to Three Star Media</h1>
-    <p>We provide modern digital solutions.</p>
-    <a href="#" class="btn">Connect ▶</a>
-</section>
+        <section id="vision" class="vision-overlay">
+            <div class="container vision-flex">
+                <div class="vision-content">
+                    <h2>Our Vision</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ex voluptatem deleniti iure, sint recusantium rerum est commodi veniam tempora.</p>
+                    <a href="#" class="btn btn-gold">Learn More ▶</a>
+                </div>
+            </div>
+        </section>
 
-<!-- ABOUT -->
-<section id="about" class="about">
-    <img src="images/about-us.jpg" alt="About">
-    <div>
-        <h2>About Us</h2>
-        <p>We help businesses grow using creative strategies.</p>
-    </div>
-</section>
+        <section id="team" class="team-section">
+            <div class="container">
+                <h2>Our Team</h2>
+                <div class="team-grid">
+                    <div class="member">
+                        <img src="images/john.jpg" alt="John">
+                        <div class="member-bio">
+                            <h4>John Doe</h4>
+                            <span class="role">CEO and Co-owner</span>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                    <div class="member">
+                        <img src="images/bob.jpg" alt="Bob">
+                        <div class="member-bio">
+                            <h4>Bob Rite</h4>
+                            <span class="role">CFO and Co-owner</span>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-<!-- SERVICES -->
-<section id="services">
-    <h2>Our Services</h2>
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <h2>Contact Us</h2>
+                <div class="contact-layout">
+                    <form class="contact-form">
+                        <h3>Send us a message</h3>
+                        <label>Full Name</label><input type="text" required>
+                        <label>Email</label><input type="email" required>
+                        <label>Message</label><textarea rows="4"></textarea>
+                        <button type="submit" class="btn btn-dark">Send Message</button>
+                    </form>
+                    <div class="contact-info">
+                        <h3>Hours of Operation</h3>
+                        <table class="table">
+                            <tr><th>Days</th><th>Hours</th></tr>
+                            <tr><td>Mon - Fri</td><td>9 AM - 6 PM</td></tr>
+                            <tr><td>Sat - Sun</td><td>Closed</td></tr>
+                        </table>
+                        <div class="map">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2800.0!2d-75.0!3d45.0!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDXCsDAwJzAwLjAiTiA3NcKwMDAnMDAuMCJX!5e0!3m2!1sen!2sca!4v1234567890" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
 
-    <div class="services-grid">
-
-        <article class="card">
-            <img src="images/digital.jpg" alt="">
-            <h3>Digital</h3>
-        </article>
-
-        <article class="card">
-            <img src="images/marketing.jpg" alt="">
-            <h3>Marketing</h3>
-        </article>
-
-        <article class="card">
-            <img src="images/video.jpg" alt="">
-            <h3>Video</h3>
-        </article>
-
-        <article class="card">
-            <img src="images/web.jpg" alt="">
-            <h3>Web</h3>
-        </article>
-
-        <article class="card">
-            <img src="images/print.jpg" alt="">
-            <h3>Print</h3>
-        </article>
-
-    </div>
-</section>
-
-<!-- TEAM -->
-<section id="team">
-    <h2>Our Team</h2>
-
-    <div class="team-flex">
-        <article>
-            <img src="images/john.jpg" alt="">
-            <h3>John Doe</h3>
-        </article>
-
-        <article>
-            <img src="images/bob.jpg" alt="">
-            <h3>Bob Rite</h3>
-        </article>
-    </div>
-</section>
-
-<!-- CONTACT -->
-<section id="contact">
-    <h2>Contact</h2>
-
-    <form class="contact-form">
-        <input type="text" placeholder="Full Name">
-        <input type="email" placeholder="Email">
-        <textarea placeholder="Message"></textarea>
-        <button>Send</button>
-    </form>
-
-    <!-- TABLE (VALID) -->
-    <table>
-        <thead>
-            <tr><th>Days</th><th>Hours</th></tr>
-        </thead>
-        <tbody>
-            <tr><td>Mon-Fri</td><td>9-6</td></tr>
-            <tr><td>Sat-Sun</td><td>Closed</td></tr>
-        </tbody>
-    </table>
-
-</section>
-
-</main>
-
-<!-- FOOTER -->
-<footer class="footer">
-    <p>© 2026 Three Star Media</p>
-</footer>
+    <footer class="footer">
+        <div class="container"><p>© Copyright Three Star Media, 2026</p></div>
+    </footer>
 
 </body>
 </html>
