@@ -1,6 +1,4 @@
-/* ========================================
-   CSS RESET
-======================================== */
+/* CSS RESET */
 
 *{
     margin:0;
@@ -8,9 +6,7 @@
     box-sizing:border-box;
 }
 
-/* ========================================
-   GENERAL STYLES
-======================================== */
+/* GENERAL STYLES */
 
 body{
     font-family:'Open Sans', sans-serif;
@@ -38,9 +34,7 @@ section{
     padding:40px 0;
 }
 
-/* ========================================
-   HEADER
-======================================== */
+/* HEADER */
 
 .main-header{
     background-color:#c78c06;
@@ -92,9 +86,7 @@ section{
     color:white;
 }
 
-/* ========================================
-   HERO SECTION
-======================================== */
+/* HERO SECTION */
 
 .hero-section{
     background-image:url("../images/main-banner.jpg");
@@ -130,9 +122,7 @@ section{
     color:white;
 }
 
-/* ========================================
-   ABOUT SECTION
-======================================== */
+/* ABOUT SECTION */
 
 .about-section{
     background-color:#ffe6ac;
@@ -142,9 +132,7 @@ section{
     padding-top:20px;
 }
 
-/* ========================================
-   SERVICES
-======================================== */
+/* SERVICES */
 
 .services-grid{
     display:grid;
@@ -160,9 +148,7 @@ section{
     padding:20px;
 }
 
-/* ========================================
-   VISION
-======================================== */
+/*  VISION */
 
 .vision-section{
     background-image:url("../images/vision.jpg");
@@ -176,9 +162,7 @@ section{
     padding:25px;
 }
 
-/* ========================================
-   TEAM
-======================================== */
+/* TEAM */
 
 .team-member{
     margin-bottom:30px;
@@ -189,9 +173,7 @@ section{
     padding:20px;
 }
 
-/* ========================================
-   CONTACT
-======================================== */
+/* CONTACT */
 
 .contact-form{
     margin-bottom:30px;
@@ -237,9 +219,7 @@ section{
     padding:20px 0;
 }
 
-/* ========================================
-   MEDIA QUERY
-======================================== */
+/* MEDIA QUERY */
 
 @media screen and (min-width:760px){
 
