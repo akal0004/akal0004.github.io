@@ -1,172 +1,308 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Basic Setup -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Three Star Media | Final Project</title>
+
+    <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- CSS File -->
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
+    <!-- Header -->
     <header class="main-header">
-        <div class="container header-grid">
-            <div class="logo"><img src="images/logo.png" alt="Logo"></div>
+        <div class="container">
+
+            <div class="logo">
+                <img src="images/logo.png" alt="Three Star Media Logo">
+            </div>
+
             <nav class="nav-bar">
                 <ul>
-                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">Home</a></li>
                     <li><a href="#about">About Us</a></li>
                     <li><a href="#services">Services</a></li>
                     <li><a href="#team">Team</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
-            <div class="search-box">
+
+            <form class="search-area">
                 <input type="text" placeholder="Search">
-                <button type="button">🔍</button>
-            </div>
+                <button type="submit">⌕</button>
+            </form>
+
         </div>
     </header>
 
     <main>
-        <section class="hero-image">
-            <div class="hero-overlay">
-                <h1>Welcome to Three Star Media</h1>
-                <p>Strategic media solutions for your business goals.</p>
-                <a href="#contact" class="btn btn-gold">Connect with us ▶</a>
-            </div>
-        </section>
 
-        <section id="about" class="about-peach">
-            <div class="container split-layout">
-                <div class="side-image">
-                    <img src="images/about-us.jpg" alt="About Image">
-                </div>
-                <div class="side-text">
-                    <h2>About Us</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Libero unde repellendus exercitationem asperiores ducimus placeat, maxime soluta nesciunt pariatur aliquam consequuntur sequi laboriosam perferendis eius amet ad?</p>
-                </div>
-            </div>
-        </section>
-
-        <section id="services" class="services-area">
+        <!-- Hero Section -->
+        <section class="hero-section">
             <div class="container">
-                <h2>Our Services</h2>
-                <div class="services-grid">
-                    <div class="card">
-                        <img src="images/digital.jpg" alt="Digital">
-                        <div class="card-p">
-                            <h3>Digital Transformation</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eius vel, rem inventore.</p>
-                            <a href="#" class="btn btn-black">Digital Plans ▶</a>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <img src="images/marketing.jpg" alt="Marketing">
-                        <div class="card-p">
-                            <h3>Marketing</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eius vel, rem inventore.</p>
-                            <a href="#" class="btn btn-black">Marketing Plans ▶</a>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <img src="images/video.jpg" alt="Video">
-                        <div class="card-p">
-                            <h3>Video Production</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eius vel, rem inventore.</p>
-                            <a href="#" class="btn btn-black">Video Plans ▶</a>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <img src="images/web.jpg" alt="Web">
-                        <div class="card-p">
-                            <h3>Web Development</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eius vel, rem inventore.</p>
-                            <a href="#" class="btn btn-black">Web Plans ▶</a>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <img src="images/print.jpg" alt="Print">
-                        <div class="card-p">
-                            <h3>Print</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eius vel, rem inventore.</p>
-                            <a href="#" class="btn btn-black">Print Plans ▶</a>
-                        </div>
-                    </div>
+                <div class="hero-overlay">
+                    <h1>Welcome to Three Star Media</h1>
+
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Iure, dolore. Eveniet impedit molestiae sit saepe.
+                    </p>
+
+                    <a href="#contact" class="btn btn-gold">
+                        Connect with us ▶
+                    </a>
                 </div>
             </div>
         </section>
 
-        <section id="vision" class="vision-strip">
-            <div class="container vision-content">
+        <!-- About Us -->
+        <section id="about" class="about-section">
+            <div class="container about-content">
+
+                <div class="about-image">
+                    <img src="images/about-us.jpg" alt="Office space">
+                </div>
+
+                <div class="about-text">
+                    <h2>About Us</h2>
+
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Libero unde repellendus exercitationem asperiores ducimus
+                        placeat, maxime soluta nesciunt pariatur aliquam consequuntur
+                        sequi laboriosam perferendis eius amet ad.
+                    </p>
+
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Animi, vel possimus? Atque accusamus, excepturi corrupti.
+                    </p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Services -->
+        <section id="services" class="services-section">
+            <div class="container">
+
+                <h2>Our Services</h2>
+
+                <div class="services-grid">
+
+                    <article class="service-card">
+                        <img src="images/digital.jpg" alt="Digital Transformation">
+
+                        <div class="card-text">
+                            <h3>Digital Transformation</h3>
+
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Quae, asperiores.
+                            </p>
+
+                            <a href="#" class="btn btn-dark">Digital Plans ▶</a>
+                        </div>
+                    </article>
+
+                    <article class="service-card">
+                        <img src="images/marketing.jpg" alt="Marketing">
+
+                        <div class="card-text">
+                            <h3>Marketing</h3>
+
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Quae, asperiores.
+                            </p>
+
+                            <a href="#" class="btn btn-dark">Marketing Plans ▶</a>
+                        </div>
+                    </article>
+
+                    <article class="service-card">
+                        <img src="images/video.jpg" alt="Video Production">
+
+                        <div class="card-text">
+                            <h3>Video Production</h3>
+
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Quae, asperiores.
+                            </p>
+
+                            <a href="#" class="btn btn-dark">Video Plans ▶</a>
+                        </div>
+                    </article>
+
+                    <article class="service-card">
+                        <img src="images/web.jpg" alt="Web Development">
+
+                        <div class="card-text">
+                            <h3>Web Development</h3>
+
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Quae, asperiores.
+                            </p>
+
+                            <a href="#" class="btn btn-dark">Web Plans ▶</a>
+                        </div>
+                    </article>
+
+                    <article class="service-card">
+                        <img src="images/print.jpg" alt="Print">
+
+                        <div class="card-text">
+                            <h3>Print</h3>
+
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Quae, asperiores.
+                            </p>
+
+                            <a href="#" class="btn btn-dark">Print Plans ▶</a>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Vision -->
+        <section class="vision-section">
+            <div class="container vision-box">
                 <h2>Our Vision</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ex voluptatem deleniti iure, sint recusantium rerum est commodi veniam tempora. Magnam rerum voluptas nesciunt quam nostrum similique nihil.</p>
+
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Ex voluptatem deleniti iure, sint recusandae rerum est
+                    commodi veniam tempora.
+                </p>
+
                 <a href="#" class="btn btn-gold">Learn More ▶</a>
             </div>
         </section>
 
+        <!-- Team -->
         <section id="team" class="team-section">
             <div class="container">
+
                 <h2>Our Team</h2>
-                <div class="team-flex">
-                    <div class="member">
-                        <img src="images/john.jpg" alt="John">
-                        <div class="member-info">
-                            <h4>John Doe</h4>
-                            <p><strong>CEO and Co-owner</strong></p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet, aspernatur ratione sed cum ad officiis sint cumque fugiat similique.</p>
+
+                <div class="team-member">
+                    <img src="images/john.jpg" alt="John Doe">
+
+                    <div class="team-text">
+                        <h3>John Doe</h3>
+                        <p><strong>CEO and Co-owner</strong></p>
+
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Amet, aspernatur ratione sed cum ad officiis sint.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="team-member">
+                    <img src="images/bob.jpg" alt="Bob Rite">
+
+                    <div class="team-text">
+                        <h3>Bob Rite</h3>
+                        <p><strong>CFO and Co-owner</strong></p>
+
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Amet, aspernatur ratione sed cum ad officiis sint.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section id="contact" class="contact-section">
+            <div class="container">
+
+                <h2>Contact Us</h2>
+
+                <div class="contact-layout">
+
+                    <div class="contact-form">
+                        <h3>Send us a message</h3>
+
+                        <form>
+                            <label for="fullname">Full Name</label>
+                            <input type="text" id="fullname">
+
+                            <label for="email">Email</label>
+                            <input type="email" id="email">
+
+                            <label for="message">Message</label>
+                            <textarea id="message" rows="6"></textarea>
+
+                            <button type="submit" class="btn btn-dark">
+                                Send
+                            </button>
+                        </form>
+                    </div>
+
+                    <div class="contact-info">
+                        <h3>Hours of operation</h3>
+
+                        <table class="hours-table">
+                            <tr>
+                                <th>Days</th>
+                                <th>Hours</th>
+                            </tr>
+                            <tr>
+                                <td>Monday - Friday</td>
+                                <td>9 AM - 6 PM</td>
+                            </tr>
+                            <tr>
+                                <td>Saturday - Sunday</td>
+                                <td>Closed</td>
+                            </tr>
+                        </table>
+
+                        <h3>Location</h3>
+
+                        <p>
+                            Algonquin College<br>
+                            1385 Woodroffe Ave<br>
+                            Nepean, ON K2G 1V8
+                        </p>
+
+                        <div class="map-box">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2803.931201509172!2d-75.7576086237255!3d45.34812674068596!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce07187e593f0b%3A0xc39130769910d68!2sAlgonquin%20College!5e0!3m2!1sen!2sca!4v1713626210000!5m2!1sen!2sca"
+                                width="100%"
+                                height="300"
+                                style="border:0;"
+                                allowfullscreen=""
+                                loading="lazy">
+                            </iframe>
                         </div>
                     </div>
-                    <div class="member">
-                        <img src="images/bob.jpg" alt="Bob">
-                        <div class="member-info">
-                            <h4>Bob Rite</h4>
-                            <p><strong>CFO and Co-owner</strong></p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet, aspernatur ratione sed cum ad officiis sint cumque fugiat similique.</p>
-                        </div>
-                    </div>
+
                 </div>
             </div>
         </section>
 
-        <section id="contact" class="contact-area">
-            <div class="container contact-grid">
-                <div class="form-part">
-                    <h3>Contact Us</h3>
-                    <p>Send us a message</p>
-                    <form>
-                        <label>Full Name</label>
-                        <input type="text" name="name">
-                        <label>Email</label>
-                        <input type="email" name="email">
-                        <label>Message</label>
-                        <textarea rows="5"></textarea>
-                        <button type="submit" class="btn btn-black">Send Message</button>
-                    </form>
-                </div>
-                <div class="info-part">
-                    <h3>Hours of Operation</h3>
-                    <table class="hours-table">
-                        <tr><td>Monday - Friday</td><td>9 AM - 6 PM</td></tr>
-                        <tr><td>Saturday - Sunday</td><td>Closed</td></tr>
-                    </table>
-                    <h3>Location</h3>
-                    <p><strong>Algonquin College</strong><br>
-                    1385 Woodroffe Ave, Ottawa, ON K2G 1V8</p>
-                    
-                    <div class="live-map">
-                        <iframe 
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2803.93510521405!2d-75.7570498234397!3d45.34839354115162!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce071873efc667%3A0x3da79488339893d5!2sAlgonquin%20College!5e0!3m2!1sen!2sca!4v1700000000000!5m2!1sen!2sca" 
-                            width="100%" height="220" style="border:0;" allowfullscreen="" loading="lazy">
-                        </iframe>
-                    </div>
-                </div>
-            </div>
-        </section>
     </main>
 
-    <footer class="main-footer">
-        <p>© Copyright Three Star Media, 2026</p>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>© Copyright Three Star Media, 2026</p>
+            <p>All images are taken from Unsplash</p>
+        </div>
     </footer>
 
 </body>
